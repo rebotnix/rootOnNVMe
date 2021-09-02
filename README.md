@@ -1,4 +1,4 @@
-# rootOnNVMe
+# Boot from SSD
 Switch the rootfs to a NVMe SSD on the Jetson Xavier NX and Jetson AGX Xavier
 
 These scripts install a service which runs at startup to point the rootfs to a SSD installed on /dev/nvme0 (the M.2 Key M slot).
@@ -30,6 +30,7 @@ Typically this involves copying the /boot* directory and /lib/modules/\<kernel n
 
 ## Notes
 * Initial Release, May 2020
-* JetPack 4.4 DP
-* Tested on Jetson Xavier NX
+* JetPack 4.4 till 4.6
+* Tested on Jetson Xavier NX Devkit
+* Tested on REBOTNIX GUSTAV NX & AGX (Production version)
 
