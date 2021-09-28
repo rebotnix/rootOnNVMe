@@ -1,4 +1,4 @@
-# Boot from SSD
+# Boot from GUSTAV NX / AGX / SSD
 Switch the rootfs to a NVMe SSD on the Jetson Xavier NX and Jetson AGX Xavier
 
 These scripts install a service which runs at startup to point the rootfs to a SSD installed on /dev/nvme0 (the M.2 Key M slot).
